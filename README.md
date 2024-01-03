@@ -1,7 +1,7 @@
-# Mozzarella Pizza Image Classifier
+# Image Classifier
 
 ## Descrição
-Este projeto implementa um classificador de imagens de pizza, com foco em identificar especificamente pizzas de muçarela. Ele usa aprendizado de máquina e processamento de imagens com TensorFlow e Keras para treinar um modelo de rede neural convolucional (CNN).
+Este projeto implementa um classificador de imagens. Ele usa aprendizado de máquina e processamento de imagens com TensorFlow e Keras para treinar um modelo de rede neural convolucional (CNN).
 
 ## Pré-requisitos
 Antes de começar, certifique-se de que você tem Python instalado em seu sistema. Este projeto foi desenvolvido usando Python 3.11.
@@ -30,7 +30,7 @@ Siga estas etapas para configurar o ambiente de desenvolvimento:
 
 ## Estrutura do Projeto
 ```
-mozzarella_pizza_project/
+ai-classifier/
 │
 ├── data/                     # Pasta para armazenar os conjuntos de dados
 │   ├── train/                # Dados de treinamento
@@ -38,7 +38,7 @@ mozzarella_pizza_project/
 │   └── test/                 # Dados de teste
 │
 ├── models/                   # Modelos treinados
-│   └── mozzarella_model.h5   # Modelo treinado
+│   └── model.h5   # Modelo treinado
 │
 ├── notebooks/                # Jupyter notebooks para exploração de dados
 │
